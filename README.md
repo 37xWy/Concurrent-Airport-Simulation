@@ -24,8 +24,14 @@ The simulation is built on a custom, heavily multi-threaded architecture:
 
 ## 💻 How to Run
 
+**Option 1: Using an IDE (Recommended)**
 1. Clone or download this repository to your local machine.
-2. Open your terminal and navigate to the root directory containing the `airportsimulation` folder.
-3. Compile all the Java files using the following command:
+2. Open the project folder in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse, VS Code, NetBeans).
+3. Locate `Main.java` inside the `airportsimulation` package and run it directly.
+
+**Option 2: Using the Terminal / Command Line**
+1. Clone or download this repository.
+2. Open your terminal and navigate to the root directory (the folder containing the `airportsimulation` folder).
+3. Compile all the Java files together using the wildcard command:
    ```bash
    javac airportsimulation/*.java
